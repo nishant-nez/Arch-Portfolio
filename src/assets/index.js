@@ -3,8 +3,8 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+// import logo from './logo/logo-black.png';
+// import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
 
@@ -49,6 +49,14 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+
+// Archi
+import interior from './icons/interior.png';
+import urban from './icons/urban.png';
+import structural from './icons/structural-design.png';
+import spotlight from './icons/spotlight.png';
+import logotext from './icons/logotext-black.png';
+import logo from './icons/logo-black-icon-only.png'
 
 export {
   bwmap,
@@ -96,4 +104,8 @@ export {
   dcc,
   kelhel,
   microverse,
+  interior,
+  urban,
+  structural,
+  spotlight,
 };

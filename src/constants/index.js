@@ -27,6 +27,10 @@ import {
   dcc,
   kelhel,
   microverse,
+  interior,
+  urban,
+  structural,
+  spotlight,
 } from '../assets';
 
 export const navLinks = [
@@ -46,20 +50,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'Interior Design',
+    icon: interior,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Urban Planning',
+    icon: urban,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Structural Design',
+    icon: structural,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Lighting Architect',
+    icon: spotlight,
   },
 ];
 
@@ -124,32 +128,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
     title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    company_name: 'Prarambha',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Apr 2023 - May 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Architecture Student',
+    company_name: 'Kathmandu University (KU)',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Nov 2020 - Present',
   },
 ];
 
@@ -173,8 +163,8 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-2',
@@ -196,8 +186,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-3',
@@ -218,8 +208,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-4',
@@ -240,8 +230,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-5',
@@ -263,8 +253,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: '#',
+    demo: '#',
   },
 ];
 
